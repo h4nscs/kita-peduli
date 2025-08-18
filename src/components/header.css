@@ -1,0 +1,129 @@
+/* Regular */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/Poppins/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/Poppins/Poppins-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/Poppins/Poppins-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+button {
+    cursor: pointer;
+}
+
+.fotoProfil{
+    margin-left: 5%;
+}
+
+.header {
+  position: sticky;   /* Biar tetap di atas saat scroll */
+  top: 0;
+  left: 0;
+  width: 100%;       /* Full lebar */
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1); /* Bayangan halus */
+  display: flex;              /* Aktifkan Flexbox */
+  justify-content: space-around; /* Bagi rata kiri & kanan */
+  align-items: center; 
+  height: 76px;    /* Supaya selalu di atas elemen lain */
+  font-family: 'Poppins', sans-serif;
+  z-index: 999;
+}
+
+.tombolMasuk{
+    height: 23px;
+    background-color: white;
+    border : 0px;
+    font-family: 'Poppins', sans-serif ;
+    width: 80px;
+}
+
+.tombolMasuk:hover{
+    font-weight: 700;
+}
+
+.authButtons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.tombolDaftar{
+    height: 38px;
+    background-color: #4A9245;
+    border-radius: 5px;
+    border : 0px;
+    font-family: 'Poppins', sans-serif ;
+    width: 60px;
+}
+
+.tombolDaftar:hover{
+    background-color: #31612e;
+}
+
+.kumpulanTombolHeader{
+  top: 0;
+  left: 0;
+  display: flex;              /* Aktifkan Flexbox */
+  justify-content: space-evenly; /* Bagi rata kiri & kanan */
+  align-items: center;
+  height: 100%;
+  width: auto;
+}
+
+.tombolHeader {
+  background-color: white; 
+  color: #000000;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+
+  width: 110px;
+}
+
+.tombolHeader:hover{
+font-weight: 700;
+  /* box-shadow: 0 4px 8px rgba(0,0,0,0.2); Bayangan */
+  /* transform: scale(1.05); Sedikit membesar */
+}
+
+.fotoProfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}

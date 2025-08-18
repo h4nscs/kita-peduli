@@ -1,0 +1,106 @@
+.wrapIcon{
+    display: flex;
+    gap: 2vh;
+}
+
+.merk{
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 800;
+}
+
+.allFooter{
+    width: 100%;
+    background-color: #182418;
+    
+}
+
+.descKiri{
+    color: #B4B4B4;
+    line-break: normal;
+}
+
+.sosmed{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrapKiri{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: max-content;
+}
+
+.tautan-link{
+    font-family: "Poppins";
+    color: #B4B4B4;
+    text-decoration: none;
+}
+
+.tautan-link:hover{
+    font-weight: 800;
+}
+
+.judul-tautan{
+    color: white;
+}
+
+.tautan{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-items: center;
+    text-align: center;
+}
+
+.tautan-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapKanan{
+    width: max-content;
+    display: flex;
+    gap: 50px;
+}
+
+.allKontak {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* jarak antar baris */
+  color: #B4B4B4;
+}
+
+.kontakItem {
+  display: flex;
+  align-items: center; /* ikon & teks sejajar vertikal */
+  gap: 10px; /* jarak ikon & teks */
+
+}
+
+.footerAtas{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+hr{
+    margin-top: 50px;
+}
+
+footer{
+    text-align: center;
+    color: #B4B4B4;
+    font-family: 'Poppins';
+    font-size: 20px;
+    border-top: 1px solid #B4B4B4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5%;
+}
+
+

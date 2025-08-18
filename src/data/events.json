@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "pic": "/EventImages/bersih2.jpg",
+    "title": "Kegiatan Pembersihan Sampah",
+    "organizer": "KitaBersih",
+    "date": "2025-05-20",
+    "jam": "9:00 - 17:00",
+    "location": "Taman Safari Bogor",
+    "distance": "1.5 km",
+    "points": 20,
+    "categories": ["Lingkungan", "Kebersihan"]
+  },
+  {
+    "id": 2,
+    "pic": "/EventImages/MainPic.png",
+    "title": "Mengajar Anak Jalanan",
+    "organizer": "KitaDidik",
+    "date": "2025-05-25",
+    "jam": "9:00 - 17:00",
+    "location": "Jakarta Pusat",
+    "distance": "3 km",
+    "points": 30,
+    "categories": ["Pendidikan"]
+  },
+  {
+    "id": 3,
+    "pic": "/EventImages/MainPic.png",
+    "title": "Menghajar Anak Jalanan",
+    "organizer": "KitaHajar",
+    "date": "2025-05-23",
+    "jam": "9:00 - 17:00",
+    "location": "Jakarta Pusat",
+    "distance": "3 km",
+    "points": 30,
+    "categories": ["Pendidikan"]
+  },
+  {
+    "id": 4,
+    "pic": "/EventImages/MainPic.png",
+    "title": "Diajar Anak Jalanan",
+    "organizer": "KitaDiajar",
+    "date": "2025-05-22",
+    "jam": "9:00 - 17:00",
+    "location": "Jakarta Pusat",
+    "distance": "3 km",
+    "points": 30,
+    "categories": ["Pendidikan"]
+  },
+  {
+    "id": 5,
+    "pic": "/EventImages/MainPic.png",
+    "title": "Dihajar Anak Jalanan",
+    "organizer": "KitaDihajar",
+    "date": "2025-05-21",
+    "jam": "9:00 - 17:00",
+    "location": "Jakarta Pusat",
+    "distance": "3 km",
+    "points": 30,
+    "categories": ["Pendidikan"]
+  },
+  {
+    "id": 6,
+    "pic": "/EventImages/MainPic.png",
+    "title": "Dihajar Anak Jalanan",
+    "organizer": "KitaDihajar",
+    "date": "2025-05-21",
+    "jam": "9:00 - 17:00",
+    "location": "Jakarta Pusat",
+    "distance": "3 km",
+    "points": 30,
+    "categories": ["Pendidikan"]
+  },
+  {
+    "id": 7,
+    "pic": "/EventImages/MainPic.png",
+    "title": "Dihajar Anak Jalanan",
+    "organizer": "KitaDihajar",
+    "date": "2025-05-21",
+    "jam": "9:00 - 17:00",
+    "location": "Jakarta Pusat",
+    "distance": "3 km",
+    "points": 30,
+    "categories": ["Pendidikan"]
+  }
+]
