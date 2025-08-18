@@ -1,0 +1,110 @@
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/Poppins/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/Poppins/Poppins-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/Poppins/Poppins-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+.gambar{
+    display: flex;
+     width: 100%;
+    filter: brightness(35%);
+    position: relative;
+}
+
+.icon{
+    width: auto;
+    height: auto;
+}
+
+.title{
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.eo{
+    font-family: 'Poppins';
+    color: white;
+
+}
+
+.overlayBawah{
+    display: flex;
+    position: relative;
+    color: white;
+    font-family: 'Poppins';
+    width: 100%;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.overlayGambar{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  top: 85%;
+  left: 5vh;
+  transform: translate(0%, -100%);
+
+}
+
+.wrapMainPic{
+    display: flex;
+    position: relative;
+  flex-direction: column;
+}
+
+.badge{
+    background-color: white;
+    font-family: 'Poppins';
+    font-size: 13;
+    border-radius: 15px;
+    border: solid 3px #4A9245;
+}
+
+.judulTeks{
+    font-family: 'Poppins';
+    font-weight: 800;
+    color: #4A9245;
+}
+
+.isiTeks{
+    font-family: 'Poppins';
+}
+
+.allTeks{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin: 5vh;
+}

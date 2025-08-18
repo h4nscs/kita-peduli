@@ -4,7 +4,8 @@ import "./Events.css";
 import MainPic from "../assets/Events/MainPic.png"
 import events from "../data/events.json"
 import { Link, useNavigate } from "react-router-dom";
-import TES from "/EventImages/bersih2.jpg"
+import PageDetailEvent from './detailEvent';
+
 
 function GambarUtama(){
   return (
@@ -114,7 +115,7 @@ function EventPage() {
           
           <div key={ev.id} className="eventCard">
       <img 
-        src={imgSrc} 
+        src={ev.pic} 
         title={ev.title} 
         className="eventPic"
         onError={(e) => { 
@@ -139,7 +140,7 @@ function EventPage() {
           <p className="point">{ev.points} Points</p>
         </div>
       </div>
-      <Link className="link">
+      <Link to={`/detailEvent/${ev.id}`} className="link">
         <button className="detailBtn">Lihat Detail</button>
       </Link>
     </div>

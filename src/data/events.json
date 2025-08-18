@@ -9,7 +9,8 @@
     "location": "Taman Safari Bogor",
     "distance": "1.5 km",
     "points": 20,
-    "categories": ["Lingkungan", "Kebersihan"]
+    "categories": ["Lingkungan", "Kebersihan"],
+    "persons": 50
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "location": "Jakarta Pusat",
     "distance": "3 km",
     "points": 30,
-    "categories": ["Pendidikan"]
+    "categories": ["Pendidikan"],
+    "persons": 50
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "location": "Jakarta Pusat",
     "distance": "3 km",
     "points": 30,
-    "categories": ["Pendidikan"]
+    "categories": ["Pendidikan"],
+    "persons": 50
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "location": "Jakarta Pusat",
     "distance": "3 km",
     "points": 30,
-    "categories": ["Pendidikan"]
+    "categories": ["Pendidikan"],
+    "persons": 50
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "location": "Jakarta Pusat",
     "distance": "3 km",
     "points": 30,
-    "categories": ["Pendidikan"]
+    "categories": ["Pendidikan"],
+    "persons": 50
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
     "location": "Jakarta Pusat",
     "distance": "3 km",
     "points": 30,
-    "categories": ["Pendidikan"]
+    "categories": ["Pendidikan"],
+    "persons": 50
   },
   {
     "id": 7,
@@ -81,6 +87,7 @@
     "location": "Jakarta Pusat",
     "distance": "3 km",
     "points": 30,
-    "categories": ["Pendidikan"]
+    "categories": ["Pendidikan"],
+    "persons": 50
   }
 ]
