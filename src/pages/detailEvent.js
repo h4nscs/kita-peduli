@@ -83,7 +83,7 @@ function PageDetailEvent({ events }) {
   const { id } = useParams(); // ambil id dari URL
   const event = events.find(ev => ev.id.toString() === id);
 
-  if (!event) return <p>Event tidak ditemukan!</p>;
+  if (!event) return <p className="error">Event tidak ditemukan!</p>;
 
   return (
     <div>
