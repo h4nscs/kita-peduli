@@ -16,6 +16,8 @@ function App() {
         <Route path="/home" element={<HomePage isLoggedIn={isLoggedIn} />} />    {/* Bisa juga /home */}
         <Route path="/event" element={<EventPage />} />
         <Route path="/rewards" element={<RewardsPage />} />
+
+        <Route path="*" element={<HomePage isLoggedIn={isLoggedIn} />} />
       </Routes>
       <Footer/>
     </Router>
