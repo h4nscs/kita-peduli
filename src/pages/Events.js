@@ -72,7 +72,7 @@ function EventPage() {
 };
 
   const visibleEvents = sortedEvents.slice(0, visibleCount);
-
+  const navigate = useNavigate();
   return (
     <div>
       <div className="atasEvent">
