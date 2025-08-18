@@ -113,7 +113,7 @@ function EventPage() {
           {visibleEvents.map(ev => (
           
           <div key={ev.id} className="eventCard">
-            <img src={process.env.PUBLIC_URL + TES} title={ev.title} className="eventPic"/>
+            <img src={process.env.PUBLIC_URL/EventImages/bersih2.jpg} title={ev.title} className="eventPic"/>
             <div className="cardEventAtas">
             <div className="wrapTeksEvent">
               <h3 className="eventTitle">{ev.title}</h3>
