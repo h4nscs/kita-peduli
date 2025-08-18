@@ -113,29 +113,36 @@ function EventPage() {
           {visibleEvents.map(ev => (
           
           <div key={ev.id} className="eventCard">
-            <img src={process.env.PUBLIC_URL/EventImages/bersih2.jpg} title={ev.title} className="eventPic"/>
-            <div className="cardEventAtas">
-            <div className="wrapTeksEvent">
-              <h3 className="eventTitle">{ev.title}</h3>
-            <p className="organizer">By {ev.organizer}</p>
-            <p className="date">📅{formatDate(ev.date)}, {ev.jam}</p>
-            <p className="date">📌{ev.location}<br></br>Jarak {ev.distance}</p>
-            <div>
-              {ev.categories.map(cat => (
-                <span key={cat} className="badge">{cat}</span>
-              ))}
-            </div>
-            </div>
-            <div>
-              <p className="point">{ev.points} Points</p>
-            </div>
-            </div>
-            <Link className="link">
-              <button className="detailBtn">
-                Lihat Detail
-              </button>
-            </Link>
+      <img 
+        src={imgSrc} 
+        title={ev.title} 
+        className="eventPic"
+        onError={(e) => { 
+          e.target.onerror = null; // cegah loop
+          e.target.src = '/EventImages/default.jpg'; // fallback image
+        }}
+        alt={ev.title}
+      />
+      <div className="cardEventAtas">
+        <div className="wrapTeksEvent">
+          <h3 className="eventTitle">{ev.title}</h3>
+          <p className="organizer">By {ev.organizer}</p>
+          <p className="date">📅 {formatDate(ev.date)}, {ev.jam}</p>
+          <p className="date">📌 {ev.location}<br />Jarak {ev.distance}</p>
+          <div>
+            {ev.categories.map(cat => (
+              <span key={cat} className="badge">{cat}</span>
+            ))}
           </div>
+        </div>
+        <div>
+          <p className="point">{ev.points} Points</p>
+        </div>
+      </div>
+      <Link className="link">
+        <button className="detailBtn">Lihat Detail</button>
+      </Link>
+    </div>
         ))}
       </div>
       {/* Tombol "Muat Lebih Banyak" */}
