@@ -140,9 +140,12 @@ function EventPage() {
           <p className="point">{ev.points} Points</p>
         </div>
       </div>
-      <Link to={`/detailEvent/${ev.id}`} className="link">
-        <button className="detailBtn">Lihat Detail</button>
-      </Link>
+      <button
+        className="detailBtn"
+        onClick={() => navigate(`/detailEvent/${ev.id}`)}
+      >
+        Lihat Detail
+      </button>
     </div>
         ))}
       </div>
