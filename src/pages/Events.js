@@ -4,6 +4,7 @@ import "./Events.css";
 import MainPic from "../assets/Events/MainPic.png"
 import events from "../data/events.json"
 import { Link, useNavigate } from "react-router-dom";
+import TES from "/EventImages/bersih2.jpg"
 
 function GambarUtama(){
   return (
@@ -112,7 +113,7 @@ function EventPage() {
           {visibleEvents.map(ev => (
           
           <div key={ev.id} className="eventCard">
-            <img src={process.env.PUBLIC_URL + ev.pic} title={ev.title} className="eventPic"/>
+            <img src={process.env.PUBLIC_URL + TES} title={ev.title} className="eventPic"/>
             <div className="cardEventAtas">
             <div className="wrapTeksEvent">
               <h3 className="eventTitle">{ev.title}</h3>
