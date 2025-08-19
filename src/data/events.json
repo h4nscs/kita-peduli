@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "pic": "/EventImages/bersih2.jpg",
+    "pic": "EventImages/bersih2.jpg",
     "title": "Kegiatan Pembersihan Sampah",
     "organizer": "KitaBersih",
     "date": "2025-05-20",
@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "pic": "/EventImages/MainPic.png",
+    "pic": "EventImages/MainPic.png",
     "title": "Mengajar Anak Jalanan",
     "organizer": "KitaDidik",
     "date": "2025-05-25",
@@ -27,7 +27,7 @@
   },
   {
     "id": 3,
-    "pic": "/EventImages/MainPic.png",
+    "pic": "EventImages/MainPic.png",
     "title": "Menghajar Anak Jalanan",
     "organizer": "KitaHajar",
     "date": "2025-05-23",
@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "pic": "/EventImages/MainPic.png",
+    "pic": "EventImages/MainPic.png",
     "title": "Diajar Anak Jalanan",
     "organizer": "KitaDiajar",
     "date": "2025-05-22",
@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "pic": "/EventImages/MainPic.png",
+    "pic": "EventImages/MainPic.png",
     "title": "Dihajar Anak Jalanan",
     "organizer": "KitaDihajar",
     "date": "2025-05-21",
@@ -66,7 +66,7 @@
   },
   {
     "id": 6,
-    "pic": "/EventImages/MainPic.png",
+    "pic": "EventImages/MainPic.png",
     "title": "Dihajar Anak Jalanan",
     "organizer": "KitaDihajar",
     "date": "2025-05-21",
@@ -79,7 +79,7 @@
   },
   {
     "id": 7,
-    "pic": "/EventImages/MainPic.png",
+    "pic": "EventImages/MainPic.png",
     "title": "Dihajar Anak Jalanan",
     "organizer": "KitaDihajar",
     "date": "2025-05-21",
