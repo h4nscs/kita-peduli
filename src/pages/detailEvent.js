@@ -54,7 +54,7 @@ function OverlayGambar({event}){
 
 function GambarUtama({event}){
   return (
-    <img src={event.pic} alt="Gambar" className='gambar'/>
+    <img src={`${process.env.PUBLIC_URL}${event.pic}`} alt="Gambar" className='gambar'/>
   );
 }
 
