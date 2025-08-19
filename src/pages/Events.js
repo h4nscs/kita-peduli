@@ -115,7 +115,7 @@ function EventPage() {
           
           <div key={ev.id} className="eventCard">
       <img 
-        src={`${process.env.PUBLIC_URL}/${ev.pic}`}
+        src={`${process.env.PUBLIC_URL}/EventImages/${ev.pic}`}
         title={ev.title} 
         className="eventPic"
         onError={(e) => { 
