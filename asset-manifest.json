@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kita-peduli/static/css/main.0daa48ff.css",
-    "main.js": "/kita-peduli/static/js/main.a7444e1d.js",
+    "main.css": "/kita-peduli/static/css/main.4494982e.css",
+    "main.js": "/kita-peduli/static/js/main.f36cec94.js",
     "static/js/453.dfe80565.chunk.js": "/kita-peduli/static/js/453.dfe80565.chunk.js",
     "static/media/Home.png": "/kita-peduli/static/media/Home.5c4a1df3c4c2c956a5c8.png",
     "static/media/MainPic.png": "/kita-peduli/static/media/MainPic.b09d577ff9e514778f5e.png",
@@ -14,12 +14,12 @@
     "static/media/Poppins-Bold.ttf": "/kita-peduli/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "static/media/foto pohan.jpg": "/kita-peduli/static/media/foto pohan.85c2bfc92195d3c3b245.jpg",
     "index.html": "/kita-peduli/index.html",
-    "main.0daa48ff.css.map": "/kita-peduli/static/css/main.0daa48ff.css.map",
-    "main.a7444e1d.js.map": "/kita-peduli/static/js/main.a7444e1d.js.map",
+    "main.4494982e.css.map": "/kita-peduli/static/css/main.4494982e.css.map",
+    "main.f36cec94.js.map": "/kita-peduli/static/js/main.f36cec94.js.map",
     "453.dfe80565.chunk.js.map": "/kita-peduli/static/js/453.dfe80565.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0daa48ff.css",
-    "static/js/main.a7444e1d.js"
+    "static/css/main.4494982e.css",
+    "static/js/main.f36cec94.js"
   ]
 }
