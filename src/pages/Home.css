@@ -186,37 +186,22 @@ font-family: 'Poppins';
   margin-bottom: 10vh;
 }
 
-.swiper-wrapper {
-  transition-timing-function: linear !important;
+.karosel{
+  display: flex;
+  margin-bottom: 10vh;
 }
 
-.swiper{
-  display: block;
-}
-
-.mySwiper {
-  padding: 0 !important;
-}
-
-.swiper .swiper-slide {
-  margin-left: -5% !important;
-}
-
-.swiper{
-  display: block;
-  width: 100%;
-  margin-bottom: 15vh;
+.karosel > * {
+  margin-right: 10vh; 
 }
 
 .infoRelawan{
   display: inline-block;
   justify-content: center;
-  justify-self: center;
-  justify-items: center;
   text-align: center;
-  align-items: center;
-  
 }
+
+
 
 .teksRelawan{
   border: 2px solid #999898; /* warna oranye kemerahan */
@@ -232,7 +217,7 @@ font-family: 'Poppins';
 }
 
 .fotoRelawan{
-  width: 30%;
+  width: 20vh;
   height: auto;
   border-radius: 100%;
 }

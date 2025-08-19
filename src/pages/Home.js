@@ -11,6 +11,7 @@ import Hans from "../assets/foto pohan.jpg"
 import Daftar from "../assets/daftar.png"
 import Kontribusi from "../assets/kontribusi.png"
 import Cari from "../assets/cari.png"
+import Marquee from "react-fast-marquee";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, FreeMode } from 'swiper/modules';
@@ -265,48 +266,13 @@ function TeksRelawan({ relawan }) {
 
 function Karosel() {
   return (
-    <Swiper
-      spaceBetween={0}
-      loop={true}
-      speed={4000}
-      slidesPerView={3}
-      freeMode={true}
-      autoplay={{
-        delay: 0, // sama seperti di JS vanilla
-        disableOnInteraction: false, // jangan berhenti kalau user interaksi
-        pauseOnMouseEnter: false, // biar autoplay tetap jalan setelah pindah manual
-      }}
-      modules={[Autoplay, FreeMode]}
-      className="swiper"
-    >
-      <SwiperSlide>
-        <InfoRelawan nama="Pohan"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <InfoRelawan nama="Brian"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <InfoRelawan nama="Hans"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <InfoRelawan nama="Pohan"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <InfoRelawan nama="Brian"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <InfoRelawan nama="Hans"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <InfoRelawan nama="Pohan"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <InfoRelawan nama="Brian"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <InfoRelawan nama="Hans"/>
-      </SwiperSlide>
-    </Swiper>
+    <Marquee speed={200} autoFill>
+      <div className="karosel">
+      <div className="card"><InfoRelawan nama="Pohan"/></div>
+      <div className="card"><InfoRelawan nama="Brian"/></div>
+      <div className="card"><InfoRelawan nama="Hans"/></div>
+      </div>
+    </Marquee>
   );
 }
 

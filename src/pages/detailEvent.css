@@ -115,3 +115,10 @@
     font-weight: 800;
     font-size: 80px;
 }
+
+.aboutEO{
+  font-family: 'Poppins';
+  font-weight: 800;
+  color: #4A9245;
+  margin: 5vh;
+}
